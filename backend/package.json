@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
+    "dev": "nodemon ./src/index.ts",
     "start": "tsc && node dist/index.js",
     "build": "cd ../backend && yarn install && yarn build",
     "lint": "eslint . --ext .ts",
@@ -12,6 +13,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "express-session": "^1.18.0",
+    "nodemon": "^3.1.0",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
