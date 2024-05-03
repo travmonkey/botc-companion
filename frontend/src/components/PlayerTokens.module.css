@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    margin-top: .5em;
+    margin-left: .5em;
+
+}
+
+.token {
+    margin: .5em;
+    border: none;
+    border-radius: .5em;
+    font-family: "Artifakt Element", monospace;
+    font-size: 1em;
+}
+
+.good {
+    background-color: #c8d5b8;
+}
+
+.good:hover {
+    background-color: #a5b593;
+}
+
+.evil {
+    background-color: #e4b9b9;
+}
+
+.evil:hover {
+    background-color: #cd9595;
+}
